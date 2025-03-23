@@ -14,7 +14,7 @@ pip install einops gdown addict future lmdb numpy pyyaml requests scipy yapf lpi
 
 
 ### Pre-trained Model
-- [Weight for NTIRE 2025 Image Shadow Removal Challenge](https://mcmasteru365-my.sharepoint.com/:u:/r/personal/dongw22_mcmaster_ca/Documents/2025NTIRE_shadow_removal/net_g_9600.pth?csf=1&web=1&e=JwsKhJ).
+- [Pre-trained Model for NTIRE 2025 Image Shadow Removal Challenge](https://mcmasteru365-my.sharepoint.com/:u:/r/personal/dongw22_mcmaster_ca/Documents/2025NTIRE_shadow_removal/net_g_9600.pth?csf=1&web=1&e=JwsKhJ).
 
 ### Our Submission on Test Sever
 - [Our Test Output](https://mcmasteru365-my.sharepoint.com/:u:/r/personal/dongw22_mcmaster_ca/Documents/25NTIRE_reflection_removal/shadow_test_result.zip?csf=1&web=1&e=pWtEb5).
