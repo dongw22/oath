@@ -14,7 +14,10 @@ pip install einops gdown addict future lmdb numpy pyyaml requests scipy yapf lpi
 
 
 ### Pre-trained Model
-- [NTIRE 2025 Image Shadow Removal Challenge](https://mcmasteru365-my.sharepoint.com/:u:/r/personal/dongw22_mcmaster_ca/Documents/2025NTIRE_shadow_removal/net_g_9600.pth?csf=1&web=1&e=JwsKhJ).
+- [Weight for NTIRE 2025 Image Shadow Removal Challenge](https://mcmasteru365-my.sharepoint.com/:u:/r/personal/dongw22_mcmaster_ca/Documents/2025NTIRE_shadow_removal/net_g_9600.pth?csf=1&web=1&e=JwsKhJ).
+
+### Our Submission on Test Sever
+- [Our Test Output](https://mcmasteru365-my.sharepoint.com/:u:/r/personal/dongw22_mcmaster_ca/Documents/2025NTIRE_shadow_removal/net_g_9600.pth?csf=1&web=1&e=JwsKhJ).
 
 ### Testing
 Download above saved models and put it into the folder ./weights. To test the model, you need to specify the input image path (`args.input_dir`) and pre-trained model path (`args.weights`) in `./Enhancement/test_unpair.py`. Then run
