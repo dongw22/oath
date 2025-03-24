@@ -22,7 +22,7 @@ pip install einops gdown addict future lmdb numpy pyyaml requests scipy yapf lpi
 ### Testing
 Download above saved models and put it into the folder ./weights. To test the model, you need to specify the input image path (`args.input_dir`) and pre-trained model path (`args.weights`) in `./Enhancement/test_unpair.py`. Then run
 ```bash
-python Enhancementy/test_unpair.py 
+python Enhancement/test_unpair.py 
 ```
 You can check the output in `test-results-ntire25`.
 
