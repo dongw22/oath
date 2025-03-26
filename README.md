@@ -11,7 +11,10 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 pip install matplotlib scikit-learn scikit-image opencv-python yacs joblib natsort h5py tqdm tensorboard
 pip install einops gdown addict future lmdb numpy pyyaml requests scipy yapf lpips thop timm
 ```
-
+3. Install BasicSR
+```
+python setup.py develop --no_cuda_ext
+```
 
 ### Pre-trained Model
 - [Pre-trained Model for NTIRE 2025 Image Shadow Removal Challenge](https://mcmasteru365-my.sharepoint.com/:u:/r/personal/dongw22_mcmaster_ca/Documents/2025NTIRE_shadow_removal/net_g_9600.pth?csf=1&web=1&e=JwsKhJ).
