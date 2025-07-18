@@ -17,10 +17,10 @@ python setup.py develop --no_cuda_ext
 ```
 
 ### Pre-trained Model
-- [Pre-trained Model for NTIRE 2025 Image Shadow Removal Challenge](https://mcmasteru365-my.sharepoint.com/:u:/r/personal/dongw22_mcmaster_ca/Documents/2025NTIRE_shadow_removal/net_g_9600.pth?csf=1&web=1&e=JwsKhJ).
+- [Pre-trained Model for NTIRE 2025 Image Shadow Removal Challenge](https://mcmasteru365-my.sharepoint.com/:u:/g/personal/dongw22_mcmaster_ca/EUb0stsTQK9AhU7hIPpIaNIBrIb6kNp74SwKqV0Bju56DQ?e=ouCZV6).
 
 ### Our Submission on Test Sever
-- [Our Test Output](https://mcmasteru365-my.sharepoint.com/:u:/r/personal/dongw22_mcmaster_ca/Documents/25NTIRE_reflection_removal/shadow_test_result.zip?csf=1&web=1&e=pWtEb5).
+- [Our Test Output](https://mcmasteru365-my.sharepoint.com/:u:/g/personal/dongw22_mcmaster_ca/EZlSn_hUM_5DsZHiEyBB3RgBy19BP15WJ5b3TMUxC6U_xw?e=U9G4nj).
 
 ### Testing
 Download above saved models and put it into the folder ./weights. To test the model, you need to specify the input image path (`args.input_dir`) and pre-trained model path (`args.weights`) in `./Enhancement/test_unpair.py`. Then run
